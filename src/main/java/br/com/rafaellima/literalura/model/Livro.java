@@ -3,6 +3,7 @@ package br.com.rafaellima.literalura.model;
 import jakarta.persistence.*;
 import lombok.*;
 
+import java.math.BigDecimal;
 import java.util.HashSet;
 import java.util.Objects;
 import java.util.Set;
@@ -22,14 +23,13 @@ public class Livro {
 
    private String titulo;
 
-   private String autor;
-
    private String idioma;
 
-   private Integer numeroDownloads;
+   @Column(name = "qtd_downloads")
+   private BigDecimal numeroDownloads;
 
    @ToString.Exclude
-   @ManyToMany
+   @ManyToMany(fetch = FetchType.EAGER)
    @JoinTable(
        name = "livro_autor",
        joinColumns = @JoinColumn(name = "livro_id"),

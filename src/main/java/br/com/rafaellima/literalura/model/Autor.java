@@ -20,11 +20,15 @@ public class Autor {
    private Long id;
 
    private String nome;
+
+   @Column(name = "ano_nascimento")
    private Integer anoNascimento;
+
+   @Column(name = "ano_falecimento")
    private Integer anoFalecimento;
 
    @ToString.Exclude
-   @ManyToMany(mappedBy = "autores")
+   @ManyToMany(mappedBy = "autores", fetch = FetchType.EAGER)
    private Set<Livro> livros = new HashSet<>();
 
    @Override
