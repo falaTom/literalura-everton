@@ -21,7 +21,10 @@ public class LiteraluraApplication implements CommandLineRunner {
 	@Override
 	public void run(String... args) throws Exception {
 
-		App app = new App(livroRepository, autorRepository);
+		App app = new App(
+				livroRepository,
+				autorRepository
+		);
 		app.menu();
 	}
 }
