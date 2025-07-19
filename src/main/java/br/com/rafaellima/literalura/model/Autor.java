@@ -34,8 +34,7 @@ public class Autor {
    @Override
    public boolean equals(Object obj) {
       if (this == obj) return true;
-      if (!(obj instanceof Autor)) return false;
-      Autor autor = (Autor) obj;
+      if (!(obj instanceof Autor autor)) return false;
       return id != null && id.equals(autor.id);
    }
 

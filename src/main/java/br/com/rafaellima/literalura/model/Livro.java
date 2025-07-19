@@ -40,8 +40,7 @@ public class Livro {
    @Override
    public boolean equals(Object obj) {
       if (this == obj) return true;
-      if (!(obj instanceof Livro)) return false;
-      Livro livro = (Livro) obj;
+      if (!(obj instanceof Livro livro)) return false;
       return id != null && id.equals(livro.id);
    }
 

@@ -2,7 +2,7 @@ package br.com.rafaellima.literalura.view;
 
 import br.com.rafaellima.literalura.dto.AutorLivroDTO;
 import br.com.rafaellima.literalura.dto.GutendexPage;
-import br.com.rafaellima.literalura.dto.LivroDTO;
+
 import br.com.rafaellima.literalura.model.Autor;
 import br.com.rafaellima.literalura.model.Livro;
 import br.com.rafaellima.literalura.repository.AutorRepository;
