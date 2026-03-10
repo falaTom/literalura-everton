@@ -26,4 +26,4 @@ O *LiterAlura* é um sistema de catálogo de livros desenvolvido como desafio fi
 ## 📁 Acesso ao Projeto
 Você pode clonar este repositório usando o comando:
 ```bash
-git clone [https://github.com/SEU-USUARIO/desafio-literalura.git](https://github.com/SEU-USUARIO/desafio-literalura.git)
+git clone [https://github.com/falaTom/desafio-literalura.git](https://github.com/falaTom/desafio-literalura.git)
