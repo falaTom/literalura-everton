@@ -1,13 +1,13 @@
-package br.com.rafaellima.literalura.view;
+package br.com.everton.literalura.view;
 
-import br.com.rafaellima.literalura.dto.AutorLivroDTO;
-import br.com.rafaellima.literalura.dto.GutendexPage;
+import br.com.everton.literalura.dto.AutorLivroDTO;
+import br.com.everton.literalura.dto.GutendexPage;
 
-import br.com.rafaellima.literalura.model.Autor;
-import br.com.rafaellima.literalura.model.Livro;
-import br.com.rafaellima.literalura.repository.AutorRepository;
-import br.com.rafaellima.literalura.repository.LivroRepository;
-import br.com.rafaellima.literalura.service.ConsumoApi;
+import br.com.everton.literalura.model.Autor;
+import br.com.everton.literalura.model.Livro;
+import br.com.everton.literalura.repository.AutorRepository;
+import br.com.everton.literalura.repository.LivroRepository;
+import br.com.everton.literalura.service.ConsumoApi;
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import lombok.AllArgsConstructor;

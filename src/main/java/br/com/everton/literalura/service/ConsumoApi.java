@@ -1,4 +1,4 @@
-package br.com.rafaellima.literalura.service;
+package br.com.everton.literalura.service;
 
 import java.io.IOException;
 import java.net.URI;

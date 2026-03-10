@@ -1,4 +1,4 @@
-package br.com.rafaellima.literalura.model;
+package br.com.everton.literalura.model;
 
 import jakarta.persistence.*;
 import lombok.*;

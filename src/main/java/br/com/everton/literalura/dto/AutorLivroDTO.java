@@ -1,4 +1,4 @@
-package br.com.rafaellima.literalura.dto;
+package br.com.everton.literalura.dto;
 
 public record AutorLivroDTO(
       String nome,

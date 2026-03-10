@@ -1,4 +1,4 @@
-package br.com.rafaellima.literalura.dto;
+package br.com.everton.literalura.dto;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import lombok.AllArgsConstructor;

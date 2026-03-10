@@ -1,4 +1,4 @@
-package br.com.rafaellima.literalura;
+package br.com.everton.literalura;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

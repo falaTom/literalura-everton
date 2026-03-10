@@ -1,8 +1,8 @@
-package br.com.rafaellima.literalura;
+package br.com.everton.literalura;
 
-import br.com.rafaellima.literalura.repository.AutorRepository;
-import br.com.rafaellima.literalura.repository.LivroRepository;
-import br.com.rafaellima.literalura.view.App;
+import br.com.everton.literalura.repository.AutorRepository;
+import br.com.everton.literalura.repository.LivroRepository;
+import br.com.everton.literalura.view.App;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
@@ -20,9 +20,8 @@ public class LiteraluraApplication implements CommandLineRunner {
 
 	@Override
 	public void run(String... args) throws Exception {
-
-		App app = new App(
-				livroRepository,
+	App app = new App(
+			livroRepository,
 				autorRepository
 		);
 		app.menu();
